@@ -1,0 +1,32 @@
+FPT - Formation Pour Tous : site web
+
+MISE EN LIGNE SUR HOSTINGER
+1. hPanel > Sites web > votre site > Gestionnaire de fichiers.
+2. Ouvrez le dossier public_html (videz-le s'il contient un fichier par defaut).
+3. Envoyez fpt-site.zip dans public_html, puis clic droit > Extraire.
+4. index.html doit se trouver directement dans public_html (pas dans un sous-dossier).
+5. Ouvrez votre domaine : le site doit s'afficher.
+
+A COMPLETER AVANT LA MISE EN LIGNE
+- Formulaire : les demandes sont envoyees par e-mail a ifpfpt53@gmail.com via contact.php (PHP, sans base de donnees).
+  Si l'envoi echoue, le visiteur est invite a utiliser WhatsApp (+237 675 76 20 21).
+  Faites un test d'envoi apres la mise en ligne et verifiez aussi le dossier Spam de Gmail.
+  Pour changer le destinataire : modifiez DESTINATAIRE en haut de contact.php.
+- Informations a confirmer : niveaux et durees des formations, temoignages, sessions a venir,
+  mentions legales et politique de confidentialite.
+
+FICHIERS
+index.html : structure de la page
+i18n.js    : traductions francais/anglais (modifiez les textes anglais ici)
+style.css  : design (couleurs, mise en page, animations)
+app.js     : fonctionnalites (menus, onglets, formulaire, compteurs)
+contact.php: envoi des demandes par e-mail
+assets/    : images (webp), video du hero (mp4)
+
+RESEAUX SOCIAUX
+- Les liens Facebook et TikTok pointent vers une recherche "Formation pour tous".
+  Remplacez-les par les adresses exactes des pages (cherchez facebook.com/search et tiktok.com/search dans index.html).
+
+SITE BILINGUE
+- Bouton FR/EN dans l'en-tete. Langue par defaut : celle du navigateur du visiteur (francais sinon).
+- Les traductions anglaises se corrigent dans i18n.js (dictionnaire D).
